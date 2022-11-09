@@ -9,7 +9,6 @@ public class Penguin extends Bird implements Swim {
         this.depths = 0;
     }
 
-    @Override
     public String sing() {
         return "Quack!";
     }
